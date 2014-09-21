@@ -11,4 +11,4 @@ getVariableNames() for the columns chosen using the variableDS function, getVari
 
 getTidyData() function traverses through the rbinded data set generated in mergeDataSet() and returns a data set that is the average of the means and stds for each subject and activity.
 
-
+getDataSub () function is used by the getTidyData() function to extract data with respect to the subjects one at a time.
